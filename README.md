@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Relay MVP - LinkedIn Engagement Tool
 
 A simple, powerful LinkedIn engagement tool built with Next.js and Supabase.
@@ -276,3 +277,7 @@ MIT - Do whatever you want with this code!
 ---
 
 **Ready to launch?** Follow the deployment steps above and you'll be live in 20 minutes!
+=======
+# Relay
+Relay MVP - Linkedin Engagement Tool
+>>>>>>> 803739e26a39613212b0486df53ec340a0664d8b
