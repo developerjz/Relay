@@ -44,7 +44,8 @@ export async function GET(request: NextRequest) {
           const profile = post.profiles
 
           const { data: emailData, error: emailError } = await resend.emails.send({
-            from: 'Relay <noreply@tryrelay.com>', // Change this to your verified domain
+            // Using Resend sandbox - emails only go to your Resend account email
+            from: 'Relay <onboarding@resend.dev>',
             to: profile.email,
             subject: `Time to engage with ${post.post_author}'s post!`,
             html: `
